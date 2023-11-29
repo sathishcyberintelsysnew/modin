@@ -1,3 +1,4 @@
 ray==1.1.0
 git+https://github.com/modin-project/modin
 git+https://github.com/modin-project/modin-spreadsheet.git@49ffd89f683f54c311867d602c55443fb11bf2a5
+aiohttp>=3.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
